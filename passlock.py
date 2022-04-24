@@ -74,3 +74,8 @@ class User:
         for credential in cls.credentials_list:
             if credential.account == account:
                 return True
+                def display_credentials(cls):
+        """
+        Method that returns all items in the credentials list
+        """
+        return cls.
